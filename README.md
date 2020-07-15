@@ -19,9 +19,9 @@ I'm **Mathis Mensing**, a 19 year old software developer from Germany.
 * Networking
 
 ### Contact
-You can [email me](mailto:matmen@dreadful.tech) and optionally encrypt your mail for [my PGP key](https://keybase.io/matmende/pgp_keys.asc).
+You can [email me](mailto:matmen@dreadful.tech) and optionally encrypt your mail for [my PGP key](https://keybase.io/matmende/pgp_keys.asc).  
 
-You can also find me on:
-Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)
-[Keybase](https://keybase.io/matmende)
+_You can also find me on:_  
+Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)  
+[Keybase](https://keybase.io/matmende)  
 [GitLab](https://gitlab.com/matmen)
