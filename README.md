@@ -1,16 +1,27 @@
-### Hi there 👋
+## Hi there 👋
 
-<!--
-**matmen/matmen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **Mathis Mensing**, a 19 year old software developer from Germany.
 
-Here are some ideas to get you started:
+### Current projects
+* [fAPI](https://fapi.dreadful.tech), an image manipulation API
+* [ImageScript](https://imagescript.dreadful.tech), a JavaScript image manipulation SDK
+* [PylonApps](https://github.com/PylonApps), pre-made plugin-like apps for [Pylon](https://pylon.bot)
+* [Carpool2School](https://github.com/carpool2school), a work-in-progess carsharing app
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Programming languages / Skills
+* Node.js
+* (Postgre)SQL
+* JavaScript / Typescript
+* HTML / CSS
+* Bash
+* Docker
+* Windows / Linux (sysadmin)
+* Networking
+
+### Contact
+You can [email me](mailto:matmen@dreadful.tech) and optionally encrypt your mail for [my PGP key](https://keybase.io/matmende/pgp_keys.asc).
+
+You can also find me on:
+Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)
+[Keybase](https://keybase.io/matmende)
+[GitLab](https://gitlab.com/matmen)
