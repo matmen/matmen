@@ -25,3 +25,10 @@ _You can also find me on:_
 Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)  
 [Keybase](https://keybase.io/matmende)  
 [GitLab](https://gitlab.com/matmen)
+
+---
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=matmen&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
