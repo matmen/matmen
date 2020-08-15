@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I'm **Mathis Mensing**, a 19 year old software developer from Germany.
+I'm **Mathis Mensing**, a 20 year old software developer from Germany.
 
 ### Current projects
 * [fAPI](https://fapi.dreadful.tech), an image manipulation API
