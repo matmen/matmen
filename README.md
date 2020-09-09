@@ -34,7 +34,6 @@ JavaScript   3 hrs 20 mins   █████████████████
 Markdown     9 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
 Bash         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
 TypeScript   1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92 % 
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 % 
 ```
 <!--END_SECTION:waka-->
 
