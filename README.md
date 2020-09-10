@@ -30,10 +30,11 @@ Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)
 
 <!--START_SECTION:waka-->
 ```text
-JavaScript   3 hrs 20 mins   ███████████████████████▒░   92.92 % 
-Markdown     9 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 % 
-Bash         2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
-TypeScript   1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.92 % 
+JavaScript   3 hrs 55 mins   ████████████████▓░░░░░░░░   66.81 % 
+Docker       1 hr 47 mins    ███████▓░░░░░░░░░░░░░░░░░   30.43 % 
+Other        5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 % 
+Bash         2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
+TypeScript   2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.60 % 
 ```
 <!--END_SECTION:waka-->
 
