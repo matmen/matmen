@@ -28,14 +28,8 @@ Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)
 
 ---
 
-<!--START_SECTION:waka-->
-```text
-JavaScript   4 hrs 27 mins   █████████████████░░░░░░░░   68.15 % 
-Markdown     38 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Bash         29 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.42 % 
-TypeScript   25 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.43 % 
-HTML         19 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.99 % 
-```
-<!--END_SECTION:waka-->
+![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=matmen&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=matmen&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=matmen&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matmen&layout=compact)
