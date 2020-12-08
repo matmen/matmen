@@ -5,9 +5,6 @@ I'm **Mathis Mensing**, a 20 year old software developer from Germany.
 ### Current projects
 * [fAPI](https://fapi.dreadful.tech), an image manipulation API
 * [ImageScript](https://github.com/matmen/ImageScript), a zero-dependency JavaScript image manipulation SDK
-  * [fAPI ImageScript](https://imagescript.dreadful.tech), ImageScript as SaaS
-* [PylonApps](https://github.com/PylonApps), pre-made plugin-like apps for [Pylon](https://pylon.bot)
-* [Carpool2School](https://github.com/carpool2school), a work-in-progess carsharing app
 
 ### Programming languages / Skills
 * Node.js
