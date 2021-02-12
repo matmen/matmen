@@ -3,7 +3,7 @@
 I'm **Mathis Mensing**, a 20 year old software developer from Germany.
 
 ### Current projects
-* [fAPI](https://fapi.dreadful.tech), an image manipulation API
+* pxlAPI, an image manipulation / web scraping API
 * [ImageScript](https://github.com/matmen/ImageScript), a zero-dependency JavaScript image manipulation SDK
 
 ### Programming languages / Skills
@@ -20,7 +20,7 @@ I'm **Mathis Mensing**, a 20 year old software developer from Germany.
 You can [email me](mailto:matmen@dreadful.tech) and optionally encrypt your mail for [my PGP key](https://keybase.io/matmende/pgp_keys.asc).  
 
 _You can also find me on:_  
-Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#9984`)  
+Discord (via [my server](https://discord.gg/8hPrwAH) or via DM: `matmen#6666`)  
 [Keybase](https://keybase.io/matmende)  
 [GitLab](https://gitlab.com/matmen)
 
