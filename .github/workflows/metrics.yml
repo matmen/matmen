@@ -29,4 +29,4 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_achievements: yes
-          plugin_achievements_threshold: A
+          plugin_achievements_threshold: B
