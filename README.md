@@ -29,7 +29,7 @@ You can contact me via one of the following methods:
         Discord:
         <ul>
             <li>on <a href="https://discord.gg/8hPrwAH">my server</a></li>
-            <li>via DM: <code>matmen#2929</code></li>
+            <li>via DM: <a href="https://discord.com/users/814218541091520562"><code>matmen#2929</code></a></li>
         </ul>
     </li>
 </ul>
