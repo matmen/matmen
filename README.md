@@ -24,7 +24,7 @@
 <h3>Contact</h3>
 You can contact me via one of the following methods:
 <ul>
-    <li><a href="mailto:matmen@dreadful.tech">email</a></li>
+    <li><a href="mailto:mathis@matmen.dev">email</a></li>
     <li>
         Discord:
         <ul>
