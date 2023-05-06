@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2175" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1876" class="">
     <defs>
         <style/>
     </defs>
@@ -34,8 +34,8 @@
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -209,7 +209,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
                                     </svg>
-                                    834 views in last two weeks
+                                    824 views in last two weeks
                                 </div>
                             </section>
                         </div>
@@ -330,7 +330,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                         </svg>
-                                        951
+                                        952
                                     </div>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -499,6 +499,26 @@
                                     </svg>
                                     <div class="content">
                                         Pushed 1 commit in
+                                        <span class="repo">matmen/opnsense</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#b011891</div>
+                                        <div class="message">/usr/local/opnsense/mvc/script/run_migrations.php made changes @ 2023-05-05T01:20:20.985900 ((system))</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
                                         <span class="repo">fluidd-core/fluidd</span>
                                     </div>
                                 </div>
@@ -616,98 +636,6 @@ Co-authored-by: Pedro Lamas &lt;pedrolamas@gmail.com&gt;</div>
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 19 commits in
-                                        <span class="repo">matmen/opnsense</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#2737bb8</div>
-                                        <div class="message">/diag_backup.php made changes @ 2023-04-24T23:10:19.367200 (root@2001:470:7172:ffff:a138:5762:c39f:47a0)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ea02040</div>
-                                        <div class="message">/services_router_advertisements.php made changes @ 2023-04-24T23:09:57.594800 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6d462af</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T23:06:57.418200 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cfbd590</div>
-                                        <div class="message">/api/unbound/settings/addDot/ made changes @ 2023-04-24T23:06:15.999600 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#28cb31b</div>
-                                        <div class="message">/api/unbound/settings/addDot/ made changes @ 2023-04-24T23:05:30.164000 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ff9bf1a</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T23:01:12.878500 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2b62734</div>
-                                        <div class="message">Unbound general configuration changed. @ 2023-04-24T22:57:38.045700 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#dc9714c</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T22:55:58.967000 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#a4f5e77</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T22:55:32.924800 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fa377cc</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T22:54:45.696600 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cc2ba4c</div>
-                                        <div class="message">/system_general.php made changes @ 2023-04-24T22:53:55.760700 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3732201</div>
-                                        <div class="message">/api/unbound/settings/set made changes @ 2023-04-24T22:52:29.296600 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#da422ff</div>
-                                        <div class="message">/api/unbound/settings/set made changes @ 2023-04-24T22:50:47.031600 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3f3c035</div>
-                                        <div class="message">Unbound general configuration changed. @ 2023-04-24T22:50:21.530600 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#d62b882</div>
-                                        <div class="message">/firewall_rules_edit.php made changes @ 2023-04-24T22:46:31.331200 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9d5a326</div>
-                                        <div class="message">/firewall_rules.php made changes @ 2023-04-24T22:45:53.411100 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ce56d3e</div>
-                                        <div class="message">/firewall_rules_edit.php made changes @ 2023-04-24T22:45:36.075800 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#50c6603</div>
-                                        <div class="message">/firewall_rules.php made changes @ 2023-04-24T22:45:11.772500 (root@10.10.0.1)</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4110bc6</div>
-                                        <div class="message">/services_router_advertisements.php made changes @ 2023-04-24T21:44:27.154600 (root@2001:470:7172:ffff:4917:535d:35ce:785a)</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -795,7 +723,7 @@ Co-authored-by: Pedro Lamas &lt;pedrolamas@gmail.com&gt;</div>
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="16.009240246406563 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="16.051676933607112 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -1012,7 +940,7 @@ Co-authored-by: Pedro Lamas &lt;pedrolamas@gmail.com&gt;</div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 5 May 2023, 00:25:25  with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 6 May 2023, 00:24:55  with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
