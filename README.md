@@ -1,6 +1,6 @@
 <div align="center">
     <h2>Hi there 👋</h2><br>
-    I'm <b>Mathis Mensing</b>, a 22 year old software developer from Germany.<br><br>
+    I'm <b>Mathis Mensing</b>, a 23 year old software developer from Germany.<br><br>
     <img src="./github-metrics.svg" alt="Metrics"><br>
 </div>
 
