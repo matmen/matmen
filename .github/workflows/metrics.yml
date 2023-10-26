@@ -28,5 +28,6 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
+          plugin_activity_visibility: public
           plugin_achievements: yes
           plugin_achievements_threshold: B
