@@ -8,7 +8,7 @@
 <ul>
     <li><a href="https://github.com/matmen/ImageScript">ImageScript</a>, a zero-dependency JavaScript image manipulation library</li>
     <li><a href="https://github.com/fluidd-core/fluidd">fluidd</a>, a 3D printer web interface</li>
-    <li><a href="https://pxlapi.dev">pxlAPI</a>, a SaaS image manipulation / web scraping API</li>
+    <li><a href="https://github.com/pxlAPI">pxlAPI</a>, an image manipulation / web scraping API</li>
 </ul>
 
 <h3>Skills</h3>
