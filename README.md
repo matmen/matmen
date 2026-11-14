@@ -1,35 +1,11 @@
 <div align="center">
-    <h2>Hi there 👋</h2><br>
-    I'm <b>Mathis Mensing</b>, a 25 year old software developer from Germany.<br><br>
-    <img src="./github-metrics.svg" alt="Metrics"><br>
+  <img src="assets/banner.png" width="900" alt="ImageScript: pure TypeScript image processing that runs everywhere.">
+  <br><br>
+  <img src="assets/projects.png" width="900" alt="mathis@matmen.dev. ImageScript: zero-dependency image manipulation in pure typescript. coinop: arcade cabinet running on a raspberry pi. bichael: geofenced motorcycle auto-unlocking and trip reporting. bonbot: discord messages to receipt printer. powerd: wakes and sleeps proxmox hosts, VMs and LXCs. fluidd: web interface for klipper 3D printers. homelab: 5-node proxmox HA cluster.">
+  <br><br>
+  <a href="https://github.com/matmen/ImageScript">ImageScript</a> ·
+  <a href="https://imagescript.dev">docs</a> ·
+  <a href="https://try.imagescript.dev">playground</a> ·
+  <a href="https://github.com/fluidd-core/fluidd">fluidd</a> ·
+  <a href="mailto:mathis@matmen.dev">mail</a>
 </div>
-
-<h3>Project Showcase</h3>
-<ul>
-    <li><a href="https://github.com/matmen/ImageScript">ImageScript</a>, a zero-dependency JavaScript image manipulation library</li>
-    <li><a href="https://github.com/fluidd-core/fluidd">fluidd</a>, a 3D printer web interface</li>
-    <li><a href="https://github.com/pxlAPI">pxlAPI</a>, an image manipulation / web scraping API</li>
-</ul>
-
-<h3>Skills</h3>
-<ul>
-    <li>Node.js; JavaScript / Typescript</li>
-    <li>PostgreSQL / MySQL</li>
-    <li>HTML / CSS</li>
-    <li>Docker</li>
-    <li>Windows / Linux (system administration)</li>
-    <li>Networking (+IPv6)</li>
-</ul>
-
-<h3>Contact</h3>
-You can contact me via one of the following methods:
-<ul>
-    <li><a href="mailto:mathis@matmen.dev">email</a></li>
-    <li>
-        Discord:
-        <ul>
-            <li>on <a href="https://discord.gg/8hPrwAH">my server</a></li>
-            <li>via DM: <a href="https://discord.com/users/814218541091520562"><code>matmen</code></a></li>
-        </ul>
-    </li>
-</ul>

@@ -1,0 +1,8 @@
+{
+  "name": "matmen-profile",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs" },
+  "engines": { "node": ">=22.13" },
+  "dependencies": { "imagescript": "^3.20.3" }
+}

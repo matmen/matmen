@@ -1,0 +1,27 @@
+name: Build profile images
+on:
+  schedule: [{cron: "0 3 * * *"}]
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+    paths: [scripts/**, package.json, package-lock.json, assets/wordmark.svg, .github/workflows/build.yml]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: sudo apt-get install -y --no-install-recommends fonts-dejavu-core
+      - run: npm ci
+      - run: npm run build
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/banner.png assets/projects.png
+          git diff --cached --quiet || (git commit -m "Update banner" && git push)
