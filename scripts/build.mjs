@@ -58,7 +58,7 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
     ['fluidd', 'web interface for klipper 3D printers'],
     ['homelab', '5-node proxmox HA cluster'],
   ];
-  const HB = '#2b2b2e', TB = '#1d1d20', W = 900, H = 434, GR = '#26a269', BL = '#2a7bde', PU = '#a347ba', ORANGE = '#f0883e';
+  const HB = '#2b2b2e', TB = '#1d1d20', W = 900, H = 384, GR = '#26a269', BL = '#2a7bde', PU = '#a347ba', ORANGE = '#f0883e';
   const esc = (t) => t.replace(/&/g, '&amp;');
   let b = `<defs><clipPath id="win"><rect width="${W}" height="${H}" rx="14"/></clipPath></defs>`;
   b += `<g clip-path="url(#win)"><rect width="${W}" height="${H}" fill="${TB}"/><rect width="${W}" height="56" fill="${HB}"/>`;
@@ -70,10 +70,8 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
   b += `<circle cx="866" cy="27" r="12" fill="#fff" opacity="0.1"/><path d="M861,22 L871,32 M871,22 L861,32" stroke="#fff" stroke-width="2"/>`;
   const X = 24, F = 15;
   b += `<text x="${X}" y="96" ${MONO} font-size="12" fill="${BL}">~</text>`;
-  b += `<text x="${X}" y="118" ${MONO} font-size="${F}" xml:space="preserve"><tspan fill="${PU}">❯</tspan><tspan fill="${FG}"> ls ~/projects</tspan></text>`;
-  b += `<text x="${X}" y="152" ${MONO} font-size="${F}" font-weight="bold" fill="${GR}">mathis<tspan fill="${FG}" font-weight="normal">@</tspan>matmen.dev</text>`;
-  b += `<text x="${X}" y="170" ${MONO} font-size="${F}" fill="${FG}">${'-'.repeat(17)}</text>`;
-  let y = 198;
+  b += `<text x="${X}" y="118" ${MONO} font-size="${F}" xml:space="preserve"><tspan fill="${PU}">❯</tspan><tspan fill="${FG}"> ls </tspan><tspan fill="${BL}" text-decoration="underline">~/projects</tspan></text>`;
+  let y = 152;
   for (const [name, desc] of rows) {
     b += `<text x="${X}" y="${y}" ${MONO} font-size="${F}" font-weight="bold" fill="${ORANGE}">${name}</text><text x="${X + 14 * 9.03}" y="${y}" ${MONO} font-size="${F}" fill="${FG}">${esc(desc)}</text>`;
     y += 24;
@@ -81,4 +79,20 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
   b += `<text x="${X}" y="${y + 18}" ${MONO} font-size="12" fill="${BL}">~</text>`;
   b += `<text x="${X}" y="${y + 40}" ${MONO} font-size="${F}" fill="${PU}">❯</text><rect x="${X + 19}" y="${y + 26}" width="9" height="19" fill="${FG}"/></g>`;
   await render('projects.png', `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${b}</svg>`);
+}
+
+// ---- contact chips (clickable via README links); Discord logo: simple-icons, CC0 ----
+{
+  const DISCORD = 'M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z';
+  const mail = (c) => `<g fill="none" stroke="${c}" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="M3.5 6.5 L12 13 L20.5 6.5"/></g>`;
+  const disc = (c) => `<path d="${DISCORD}" fill="${c}"/>`;
+  const chips = [
+    ['contact-mail.png', mail('#2aa1b3'), 'mathis@matmen.dev'],
+    ['contact-discord.png', disc('#5865F2'), '@matmen'],
+    ['contact-server.png', disc('#5865F2'), 'discord.gg/8hPrwAH'],
+  ];
+  for (const [name, icon, text] of chips) {
+    const W = 56 + text.length * 9.03 + 18, H = 44;
+    await render(name, `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><rect width="${W}" height="${H}" rx="12" fill="#1d1d20" stroke="#3a3a3e"/><g transform="translate(16 10)">${icon}</g><text x="52" y="27.5" ${MONO} font-size="15" fill="${FG}">${text}</text></svg>`);
+  }
 }
