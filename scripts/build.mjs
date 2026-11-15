@@ -51,6 +51,7 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
 {
   const rows = [
     ['ImageScript', 'zero-dependency image manipulation in pure typescript'],
+    ['pxlAPI', 'HTTP API for image effects, face filters & format conversion'],
     ['coinop', 'arcade cabinet running on a raspberry pi'],
     ['bichael', 'geofenced motorcycle auto-unlocking & trip reporting'],
     ['bonbot', 'discord messages to receipt printer'],
@@ -58,7 +59,7 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
     ['fluidd', 'web interface for klipper 3D printers'],
     ['homelab', '5-node proxmox HA cluster'],
   ];
-  const HB = '#2b2b2e', TB = '#1d1d20', W = 900, H = 384, GR = '#26a269', BL = '#2a7bde', PU = '#a347ba', ORANGE = '#f0883e';
+  const HB = '#2b2b2e', TB = '#1d1d20', W = 900, H = 408, GR = '#26a269', BL = '#2a7bde', PU = '#a347ba', ORANGE = '#f0883e';
   const esc = (t) => t.replace(/&/g, '&amp;');
   let b = `<defs><clipPath id="win"><rect width="${W}" height="${H}" rx="14"/></clipPath></defs>`;
   b += `<g clip-path="url(#win)"><rect width="${W}" height="${H}" fill="${TB}"/><rect width="${W}" height="56" fill="${HB}"/>`;
