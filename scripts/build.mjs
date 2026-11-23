@@ -8,7 +8,7 @@ const fonts = ['DejaVuSansMono.ttf', 'DejaVuSansMono-Bold.ttf', 'DejaVuSans.ttf'
 const version = JSON.parse(readFileSync(root + 'node_modules/imagescript/package.json', 'utf8')).version;
 const MONO = 'font-family="DejaVu Sans Mono, monospace"', SANS = 'font-family="DejaVu Sans, sans-serif"';
 const FG = '#F2F4F8', DIM = '#9aa3b5';
-const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await (await Image.renderSVG(svg, { fonts, size: 2 })).encodePNG());
+const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await (await Image.renderSVG(svg, { font: fonts, scale: 2 })).encodePNG());
 
 // ---- banner: live numbers, new pixel pattern every day ----
 {
@@ -39,7 +39,7 @@ const render = async (name, svg) => writeFileSync(root + 'assets/' + name, await
   }
   b += `<image href="${wordmark}" x="40" y="34" width="405" height="70"/>`;
   b += `<text x="46" y="140" ${SANS} font-size="18" fill="${FG}">Pure TypeScript image processing that runs everywhere.</text>`;
-  [[`${stars} ★`, 'on GitHub', 0], [k(total), 'downloads, last 30 days', 170], ['2020', 'since', 400]].forEach(([v, l, dx]) => {
+  [[`${stars} ★`, 'on GitHub', 0], [k(total), 'downloads, last 30 days', 170], ['0', 'dependencies', 400]].forEach(([v, l, dx]) => {
     b += `<text x="${46 + dx}" y="196" ${MONO} font-size="30" font-weight="bold" fill="${FG}">${v}</text><text x="${46 + dx}" y="218" ${MONO} font-size="12" fill="${DIM}">${l}</text>`;
   });
   b += `<rect x="46" y="236" width="40" height="3" rx="1.5" fill="${BRAND[0]}"/><rect x="90" y="236" width="40" height="3" rx="1.5" fill="${BRAND[2]}"/><rect x="134" y="236" width="40" height="3" rx="1.5" fill="${BRAND[4]}"/>`;
